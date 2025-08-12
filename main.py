@@ -1,12 +1,12 @@
 def main_menu():
+    print("=== Data Viewer Interface ===")
     while True:
-        print("hi!")
-        print("1. Vew dataset")
+        print("\n1. View dataset")
         print("2. View visualisation")
         print("3. Search or filter data")
-        print("4. Exit")
+        print("4. Exit program")
 
-        choice = input("Select an option (1-4): ")
+        choice = input("\nSelect an option (1-4): ")
 
         if choice == "1":
             pass
@@ -15,9 +15,10 @@ def main_menu():
         elif choice == "3":
             pass
         elif choice == "4":
+            print("\nExiting program...")
             break
         else:
-            print("Please put a number 1-4")
+            print("\nInvalid input. Please input a number 1-4.")
 
 if __name__ == "__main__":
     main_menu()
