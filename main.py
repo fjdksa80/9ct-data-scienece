@@ -1,3 +1,4 @@
+from data_module import *
 def main_menu():
     print("=== Data Viewer Interface ===")
     while True:
@@ -9,7 +10,7 @@ def main_menu():
         choice = input("\nSelect an option (1-4): ")
 
         if choice == "1":
-            pass
+            display_dataset()
         elif choice == "2":
             pass
         elif choice == "3":
