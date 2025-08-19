@@ -1,4 +1,7 @@
-from data_module import *
+from data_module import (
+    display_dataset,
+    filter_dataset
+)
 def main_menu():
     print("=== Data Viewer Interface ===")
     while True:
@@ -7,14 +10,14 @@ def main_menu():
         print("3. Search or filter data")
         print("4. Exit program")
 
-        choice = input("\nSelect an option (1-4): ")
+        choice = input("\nSelect an option (1-4): ").strip()
 
         if choice == "1":
             display_dataset()
         elif choice == "2":
             pass
         elif choice == "3":
-            pass
+            filter_dataset()
         elif choice == "4":
             print("\nExiting program...")
             break
