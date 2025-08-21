@@ -1,6 +1,7 @@
 from data_module import (
     display_dataset,
-    filter_dataset
+    filter_dataset,
+    show_visualisation
 )
 def main_menu():
     print("=== Data Viewer Interface ===")
@@ -15,11 +16,11 @@ def main_menu():
         if choice == "1":
             display_dataset()
         elif choice == "2":
-            pass
+            show_visualisation()
         elif choice == "3":
             filter_dataset()
         elif choice == "4":
-            print("\nExiting program...")
+            print("Exiting program...")
             break
         else:
             print("\nInvalid input. Please input a number 1-4.")
