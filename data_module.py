@@ -56,6 +56,7 @@ def show_visualisation():
                       y=['Estimated Jobs Eliminated by AI (millions)','Estimated New Jobs Created by AI (millions)'],
                       color=['blue','red'],
                       alpha=0.3,
-                      title='Correlation of arrival and distance'
+                      title='Jobs Eliminated by AI vs. Jobs Created by AI',
+                      style=".-"
                       )
     plt.show()

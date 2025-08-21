@@ -20,7 +20,7 @@ def main_menu():
         elif choice == "3":
             filter_dataset()
         elif choice == "4":
-            print("Exiting program...")
+            print("\nExiting program...")
             break
         else:
             print("\nInvalid input. Please input a number 1-4.")
